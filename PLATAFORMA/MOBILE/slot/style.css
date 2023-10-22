@@ -32,7 +32,8 @@ table {
     color: #fff;
     padding: 5px; /* Menos preenchimento */
     border-radius: 10px 10px 0 0;
-    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    width: 60rem; /* Largura do quadrado */
+    height: 4rem; /* Altura do quadrado */
     text-align: center; /* Centralizando o texto no retângulo do título */
     margin: 0 auto; /* Centralizando horizontalmente */
 }
@@ -64,7 +65,8 @@ button:hover {
     border-top: none;
     border-radius: 0 0 10px 10px;
     padding: 5px; /* Menos preenchimento */
-    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    width: 60rem; /* Largura do quadrado */
+    height: 3rem; /* Altura do quadrado */
     text-align: center; /* Centralizando o texto no retângulo do resultado */
     margin: 0 auto; /* Centralizando horizontalmente */
 }
