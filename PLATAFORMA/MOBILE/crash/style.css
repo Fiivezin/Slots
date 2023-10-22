@@ -36,7 +36,7 @@ table {
     color: #fff;
     padding: 5px;
     border-radius: 10px 10px 0 0;
-    width: 40%; /* Largura ajustada para telas menores */
+    width: 80%; /* Largura ajustada para telas menores */
     text-align: center;
     margin: 0 auto;
     margin-top: 5%; /* Espaçamento superior ajustado para telas menores */
@@ -44,10 +44,10 @@ table {
 
 /* Estilo para o botão */
 button {
-    height: 3rem; /* Altura do botão reduzida para telas menores */
-    width: 20%; /* Largura ajustada para telas menores */
+    height: 4rem; /* Altura do botão reduzida para telas menores */
+    width: 40%; /* Largura ajustada para telas menores */
     font-family: 'Kanit', sans-serif;
-    font-size: 1rem; /* Tamanho da fonte reduzido para telas menores */
+    font-size: 2rem; /* Tamanho da fonte reduzido para telas menores */
     background: #ff0000;
     color: #fff;
     border: none;
@@ -69,7 +69,7 @@ button:hover {
     border-top: none;
     border-radius: 0 0 10px 10px;
     padding: 5px;
-    width: 40%; /* Largura ajustada para telas menores */
+    width: 80%; /* Largura ajustada para telas menores */
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5%; /* Espaçamento inferior ajustado para telas menores */
