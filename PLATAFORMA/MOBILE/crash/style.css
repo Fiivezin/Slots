@@ -5,16 +5,15 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Use 'min-height' em vez de 'height' para evitar problemas em telas pequenas */
+    height: 100vh;
 }
 
 h1 {
-    margin-top: 2%; /* Espaçamento superior ajustado para telas menores */
-    font-size: 2rem;
+    margin-top: 5%; /* Espaçamento superior ajustado para telas menores */
+    font-size: 2rem; /* Ajustar o tamanho da fonte para telas menores */
     font-family: 'Kanit', sans-serif;
     color: #fff;
 }
@@ -22,15 +21,13 @@ h1 {
 iframe {
     border-radius: 20px;
     box-shadow: 0 0 0.2em rgb(21, 255, 0), 0 0 0.2em rgb(21, 255, 0), 0 0 0.2em rgb(21, 255, 0);
-    max-width: 100%;
-    width: 80%; /* Ajuste a largura para que o vídeo se ajuste à tela do celular */
+    max-width: 100%; /* Vídeo ajustado para telas menores */
     height: auto; /* Vídeo ajustado para telas menores */
 }
 
 /* Estilo para a tabela */
 table {
-    width: 80%; /* Ajuste a largura para que a tabela se ajuste à tela do celular */
-    margin: 2% auto; /* Centralize a tabela horizontalmente */
+    border-spacing: 5%; /* Espaçamento da tabela ajustado para telas menores */
 }
 
 .title-box {
@@ -38,24 +35,25 @@ table {
     background: #222;
     color: #fff;
     padding: 5px;
-    border-radius: 10px;
-    width: 80%; /* Largura ajustada para telas menores */
+    border-radius: 10px 10px 0 0;
+    width: 40%; /* Largura ajustada para telas menores */
     text-align: center;
-    margin: 2% auto; /* Espaçamento superior e centralização horizontal */
+    margin: 0 auto;
+    margin-top: 5%; /* Espaçamento superior ajustado para telas menores */
 }
 
 /* Estilo para o botão */
 button {
-    height: 3rem;
-    width: 80%; /* Largura ajustada para telas menores */
+    height: 3rem; /* Altura do botão reduzida para telas menores */
+    width: 20%; /* Largura ajustada para telas menores */
     font-family: 'Kanit', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem; /* Tamanho da fonte reduzido para telas menores */
     background: #ff0000;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 2% auto; /* Centralize o botão horizontalmente e adicione um espaço superior e inferior */
+    margin: 2% ;
     text-decoration: none;
 }
 
@@ -66,17 +64,15 @@ button:hover {
 /* Estilo para o retângulo do resultado */
 .result-box {
     font-family: 'Kanit', sans-serif;
-    font-size: 2rem;
+    font-size: 2rem; /* Tamanho da fonte reduzido para telas menores */
     background: #ffffff;
+    border-top: none;
     border-radius: 0 0 10px 10px;
-    width: 80%; /* Largura ajustada para telas menores */
+    padding: 5px;
+    width: 40%; /* Largura ajustada para telas menores */
     text-align: center;
-    margin: 2% auto; /* Centralize o retângulo horizontalmente e adicione um espaço superior e inferior */
+    margin: 0 auto;
+    margin-bottom: 5%; /* Espaçamento inferior ajustado para telas menores */
 }
 
-@media (max-width: 768px) {
-    /* Estilos para telas menores que 768px de largura */
-    .container {
-        width: 100%;
-    }
-}
+
