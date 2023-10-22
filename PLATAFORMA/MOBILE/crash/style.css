@@ -44,10 +44,10 @@ table {
 
 /* Estilo para o botão */
 button {
-    height: 20rem;
-    width: 40rem;
+    height: 10rem;
+    width: 20rem;
     font-family: 'Kanit', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     background: #ff0000;
     color: #fff;
     border: none;
