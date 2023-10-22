@@ -31,13 +31,16 @@ table {
     color: #fff;
     padding: 5px; /* Menos preenchimento */
     border-radius: 10px 10px 0 0;
-    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    width: 25rem;
+    height: 4rem; /* Altura do quadrado */
     text-align: center; /* Centralizando o texto no retângulo do título */
     margin: 0 auto; /* Centralizando horizontalmente */
 }
 
 /* Estilo para o botão */
 button {
+    width: 25rem;
+    height: 4rem; /* Altura do quadrado */
     font-family: 'Kanit', sans-serif;
     background: #ff0000;
     color: #fff;
@@ -63,7 +66,8 @@ button:hover {
     border-top: none;
     border-radius: 0 0 10px 10px;
     padding: 5px; /* Menos preenchimento */
-    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    width: 25rem;
+    height: 4rem; /* Altura do quadrado */
     text-align: center; /* Centralizando o texto no retângulo do resultado */
     margin: 0 auto; /* Centralizando horizontalmente */
 }
